@@ -1,6 +1,3 @@
-//Nancy Ching
-//CSC336 Final Project
-
 //To start server - script: npm run dev
 
 //Requires:
