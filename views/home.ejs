@@ -1,0 +1,32 @@
+<style>
+    * {text-align: center; padding: 1.5vh; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    h1 {font-size: 6vh;}
+    #page {
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        margin-left: 120pt;
+        margin-right: 120pt;
+    }
+    body {
+        background-color:rgb(165, 194, 216)
+    }
+  </style>
+
+<div id="page">
+    <h1>Canvas -> Notion!</h1>
+    <form action ="/" method="POST">
+        <div id="canvas">
+            <label for="token">Enter Canvas Token</label>
+            <input type ="text" id="'canvas_token" name="canvas_token" required>
+        </div>
+        <div id="notion1">
+            <label for="token">Enter Notion Token</label>
+            <input type ="text" id="'notion_token" name="notion_token" required>
+        </div>
+        <div id="notion2">
+            <label for="token">Enter Notion Link to Database</label>
+            <input type ="text" id="'notion_link" name="notion_link" required>
+        </div>
+        <button type="submit" onClick="getCanvas()">Generate in Notion</button>
+    </form>
+</div>
